@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+
+
+{% for k, v in meta %}
+	<table>
+		<tr>
+			<td>{{ k }}</td>
+			<td>{{ v }}</td>
+		</tr>
+	</table>
+{% empty %}
+	<p>This did not work.</p>
+{% endfor %}
