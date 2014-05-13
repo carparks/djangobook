@@ -11,6 +11,7 @@ urlpatterns = patterns('',
 	url(r'^time/plus/(\d{1,2})/$', hours_ahead),
 	url(r'^meta/$', display_meta),
 	url(r'^search/$', views.search),
+	url(r'^contact/$', views.contact),
     # Examples:
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
